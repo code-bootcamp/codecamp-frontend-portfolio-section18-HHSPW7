@@ -25,6 +25,7 @@ export default function MyfirebaseWriteUI(
       <S.InputWrapper>
         내 용:
         <S.MyInput
+          type="text"
           onChange={props.onChangeContents}
           placeholder="내용을 입력하세요."
         />
